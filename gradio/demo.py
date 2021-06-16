@@ -9,4 +9,4 @@ examples = [
     ["The smooth Borealis basin in the Northern Hemisphere covers 40%"]
 ]
 
-gr.Interface.load("huggingface/EleutherAI/gpt-neo-2.7B", inputs=gr.inputs.Textbox(lines=5, label="Input Text"),title=title,description=description,article=article, examples=examples).launch()
+gr.Interface.load("huggingface/EleutherAI/gpt-neo-2.7B", inputs=gr.inputs.Textbox(lines=200, label="Input Text"),title=title,description=description,article=article, examples=examples).launch()
