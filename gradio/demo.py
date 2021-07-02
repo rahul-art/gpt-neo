@@ -42,10 +42,7 @@ Lower_Price_or_Flexible_Payment = gr.inputs.Textbox()
 Sleep_Apnea = gr.inputs.Dropdown(["Yes", "No"])
 Migraines = gr.inputs.Dropdown(["Yes", "No"])
 
-iface = gr.Interface(fn=outbreak_forecast,
+gr.Interface(fn=outbreak_forecast,
     inputs=[How_Old,Gender, Scheduler_Name,Patient_name, First_time,Adult_Child_or_Multiple_Family_Members,
             Virtual_or_In_person_Appointment,Who_For,Appointment_Date,Appointment_Time,This_week_or_next,Location,
-            Lower_Price_or_Flexible_Payment,Sleep_Apnea,Migraines], outputs="textbox")
-iface.test_launch()
-if __name__ == "__main__":
-    iface.launch()
+            Lower_Price_or_Flexible_Payment,Sleep_Apnea,Migraines], outputs="textbox").launch()
