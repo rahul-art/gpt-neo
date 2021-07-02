@@ -2,7 +2,7 @@ import gradio as gr
 #@title open ai key
 import openai
 openai.organization = "org-a8SkP9bZLrg98nSYqdghnnBB"
-openai.api_key = "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"
+openai.api_key = "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"
 def outbreak_forecast(How_Old,Gender, Scheduler_Name,Patient_name, First_time,Adult_Child_or_Multiple_Family_Members,
             Virtual_or_In_person_Appointment,Who_For,Appointment_Date,Appointment_Time,This_week_or_next,Location,
             Lower_Price_or_Flexible_Payment,Sleep_Apnea,Migraines):
