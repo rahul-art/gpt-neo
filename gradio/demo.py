@@ -1,5 +1,5 @@
 from transformers import pipeline
-generator = pipeline('text-generation', model='EleutherAI/gpt-neo-2.7B')
+generator = pipeline('text-generation', model='EleutherAI/gpt-neo-1.3B')
 import gradio as gr
 def outbreak_forecast(How_Old,Gender, Scheduler_Name,Patient_name, First_time,Adult_Child_or_Multiple_Family_Members,
             Virtual_or_In_person_Appointment,Who_For,Appointment_Date,Appointment_Time,This_week_or_next,Location,
