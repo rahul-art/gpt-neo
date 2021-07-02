@@ -1,6 +1,5 @@
 import gradio as gr
 #@title open ai key
-!pip install openai
 import openai
 openai.organization = "org-a8SkP9bZLrg98nSYqdghnnBB"
 openai.api_key = "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"
